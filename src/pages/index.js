@@ -1,11 +1,11 @@
 import Head from 'next/head'
-import styles from '../../styles/Home.module.css'
+import { Header } from '../components/atoms/layout/Header'
 
 export default function Home() {
   return (
     <>
-      <Head title={"むちゃん"} />
-      <p>dd</p>
+      <Head title={'むちゃん'} />
+      <Header />
     </>
   )
 }
