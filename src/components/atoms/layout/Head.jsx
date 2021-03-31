@@ -1,5 +1,5 @@
 export function Head(props) {
-  const { title } = props
+  const { title="muchan.dev" } = props
 
   return (
     <Head>
