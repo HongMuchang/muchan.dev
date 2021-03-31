@@ -1,0 +1,42 @@
+@import "../../variables.scss";
+
+.profile {
+  width: 100%;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+
+  .profile_content {
+    width: 35%;
+    margin: 0 auto;
+    border-bottom: 2px solid rgb(78, 76, 76);
+    @include mq(md) {
+      width: 55%;
+    }
+  }
+
+  .profile_icon {
+    display: flex;
+    justify-content: center;
+  }
+
+  .profile_title {
+    font-size: 30px;
+    padding-top: 20px;
+    text-align: center;
+    font-family: serif;
+  }
+
+  .profile_title_content {
+    font-size: 20px;
+    text-align: center;
+    font-family: serif;
+    padding-bottom: 5px;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: center;
+    // background-color: red;
+  }
+}

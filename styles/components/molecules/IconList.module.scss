@@ -1,0 +1,18 @@
+@import "../../variables.scss";
+
+.icon_list {
+  display: flex;
+
+  & > li {
+    width: 40px;
+    height: 40px;
+    margin: 12px;
+    // background-color: red;
+  }
+  .wontedly {
+    padding-top: 4px;
+  }
+  .qiita {
+    padding-top: 3px;
+  }
+}
