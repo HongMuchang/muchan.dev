@@ -4,13 +4,13 @@ import styles from '../../../../styles/components/atoms/layout/Header.module.scs
 export function Header() {
   return (
     <header className={styles.header}>
-      <Link href="/s">
+      <Link href="/">
         <a>
           <p className={styles.header_title}>muchan.dev</p>
         </a>
       </Link>
       <nav className={styles.header_nav}>
-        <Link href="/blog-page">
+        <Link href="/About">
           <a>About</a>
         </Link>
         <Link href="/blog-page">
