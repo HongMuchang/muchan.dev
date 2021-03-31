@@ -1,0 +1,33 @@
+.header {
+  width: 100vw;
+  height: 13vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #e6f2ff;
+  box-shadow: black 0px 0px 2px 2px;
+
+  .header_title {
+    width: 180px;
+    font-size: 34px;
+    font-weight: 500;
+
+    &:hover {
+      color: rgb(73, 216, 173);
+    }
+  }
+
+  .header_nav {
+    display: flex;
+
+    & > a {
+      font-size: 20px;
+      margin: 10px;
+      padding: 0 3px;
+
+      &:hover {
+        color: rgb(73, 216, 173);
+      }
+    }
+  }
+}
