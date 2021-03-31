@@ -1,13 +1,11 @@
-import Head from 'next/head'
-import { Footer } from '../components/atoms/layout/Footer'
-import { Header } from '../components/atoms/layout/Header'
+import { Layout } from '../components/template/Layout/Layout'
 
 export default function Home() {
   return (
     <>
-      <Head title={'むちゃん'} />
-      <Header />
-      <Footer />
+      <Layout>
+        <p>hello</p>
+      </Layout>
     </>
   )
 }
