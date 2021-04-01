@@ -1,0 +1,13 @@
+@import "../../../../styles/variables.scss";
+
+.text {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  margin: 30px 50px;
+  overflow-wrap: break-word;
+  @include mq(md) {
+    font-size: 16px;
+  }
+}

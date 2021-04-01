@@ -1,0 +1,24 @@
+@import "../../../../styles/variables.scss";
+
+.ul_content {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  margin: 15px 50px;
+
+  .li_content {
+    display: flex;
+  }
+
+  .title_disc {
+    font-size: 2px;
+    padding-top: 10px;
+    padding-right: 10px;
+  }
+  .content {
+    font-family: sans-serif;
+    font-size: px;
+    color: rgb(0, 0, 0);
+  }
+}
