@@ -4,9 +4,10 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  background-color: #e6f2ff;
-  margin-top: 40px;
-  box-shadow: 2px 4px 8px rgb(185, 183, 183);
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 2px 4px 4px rgb(185, 183, 183);
+  margin: 30px 0px;
 
   //cardの文字表示範囲
   .blog_card {
@@ -15,6 +16,7 @@
     justify-content: center;
     border-radius: 10px;
     margin: 30px;
+    background-color: forestgreen;
 
     @include mq(md) {
       // width: 400px;
