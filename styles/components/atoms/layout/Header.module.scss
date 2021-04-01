@@ -6,8 +6,10 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #e6f2ff;
-  box-shadow: black 0px 0px 2px 2px;
+  // background-color: #e6f2ff;
+  box-shadow: 0 0 8px gray;
+  margin-bottom: 3px;
+
   @include mq(sm) {
     width: 600px;
     background-color: red;

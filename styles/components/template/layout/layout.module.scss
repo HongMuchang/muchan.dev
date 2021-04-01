@@ -4,15 +4,13 @@
   width: 100vw;
   display: flex;
   justify-content: center;
-  background-color: rgb(75, 57, 57);
+  background-color: #e6f2ff;
 
   @include mq(sm) {
     width: 600px;
   }
   .main_content {
     width: 80%;
-    background-color: rgb(255, 255, 255);
-
     @include mq(sm) {
       width: 100%;
     }

@@ -3,8 +3,10 @@
 .footer {
   width: 100vw;
   text-align: center;
-  background-color: #e6f2ff;
-  box-shadow: black 0px 0px 2px 2px;
+  // background-color: #e6f2ff;
+  box-shadow: 0 4px 12px rgb(0, 0, 0);
+  margin-top: 3px;
+
   @include mq(sm) {
     width: 600px;
     background-color: red;
