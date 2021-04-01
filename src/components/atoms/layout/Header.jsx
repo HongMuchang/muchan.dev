@@ -13,11 +13,8 @@ export function Header() {
         <Link href="/About">
           <a>About</a>
         </Link>
-        <Link href="/blog-page">
-          <a>Blog</a>
-        </Link>
-        <Link href="/blog-page">
-          <a>Worsk</a>
+        <Link href="/Works">
+          <a>Works</a>
         </Link>
       </nav>
     </header>
