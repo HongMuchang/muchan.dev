@@ -1,0 +1,8 @@
+@import "../../../../styles/variables.scss";
+
+.link {
+  padding-left: 8px;
+  &:hover {
+    color: rgb(73, 216, 173);
+  }
+}

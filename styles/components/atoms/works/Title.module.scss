@@ -1,0 +1,13 @@
+@import "../../../../styles/variables.scss";
+
+.title {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  padding-bottom: 4px;
+}
+.title_content {
+  width: 100%;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
