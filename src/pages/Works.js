@@ -1,6 +1,6 @@
 import { Layout } from '../components/template/Layout/Layout'
+import { WorksCard } from '../components/organisms/index'
 import styles from '../../styles/pages/works.module.scss'
-
 
 export default function Works() {
   return (
@@ -8,9 +8,9 @@ export default function Works() {
       <Layout>
         <div className={styles.main}>
           <div className={styles.main_content}>
-            <p>works</p>
-            {/* <Title title={'自己紹介'} />
-            <AboutCard title={'こんいちは'} li={'ss'} dt={'sds'} dd={'dd'} /> */}
+            <WorksCard />
+            <WorksCard />
+            <WorksCard />
           </div>
         </div>
       </Layout>
