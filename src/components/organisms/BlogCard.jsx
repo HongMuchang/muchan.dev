@@ -1,4 +1,4 @@
-import { BlogList } from '../ molecules/index'
+import { BlogList } from '../molecules/index'
 import styles from '../../../styles/components/organisms/BlogCard.module.scss'
 
 export function BlogCard(props) {
