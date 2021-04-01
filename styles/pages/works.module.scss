@@ -1,0 +1,17 @@
+@import "../variables.scss";
+
+.main {
+  height: auto;
+  .main_content {
+    width: 70%;
+    margin: 0 auto;
+    // background-color: aqua;
+    @include mq(md) {
+      width: 100%;
+    }
+  }
+
+  .main_list {
+    list-style: disc;
+  }
+}
