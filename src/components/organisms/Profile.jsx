@@ -1,5 +1,5 @@
 import styles from '../../../styles/components/organisms/Profile.module.scss'
-import { IconList } from '../ molecules/IconList'
+import { SNSIconList } from '../molecules/index'
 import { ProfileIcon } from '../atoms/icon/index'
 
 export function Profile() {
@@ -12,7 +12,7 @@ export function Profile() {
         <p className={styles.profile_title}>Muchan</p>
         <p className={styles.profile_title_content}>むちゃん</p>
         <div className={styles.icons}>
-          <IconList />
+          <SNSIconList />
         </div>
       </div>
     </div>
