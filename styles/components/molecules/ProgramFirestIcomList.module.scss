@@ -1,0 +1,14 @@
+@import "../../variables.scss";
+
+.icon_list {
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  justify-content: space-around;
+  padding-bottom: 40px;
+
+  .icon_list_content {
+    display: block;
+  }
+}

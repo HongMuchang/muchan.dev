@@ -1,0 +1,19 @@
+@import "../../variables.scss";
+
+.icon_list {
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  justify-content: space-around;
+
+  .icon_list_content {
+    display: block;
+  }
+  .php {
+    padding-top: 20px;
+  }
+  .vue {
+    padding-top: 5px;
+  }
+}
