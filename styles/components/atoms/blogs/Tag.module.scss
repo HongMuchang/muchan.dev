@@ -1,0 +1,16 @@
+@import "../../../variables.scss";
+
+.tag {
+  width: 80px;
+  margin: 0 auto;
+  display: block;
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+  background-color: rgb(161, 146, 146);
+
+  &:hover {
+    background-color: rgb(73, 216, 173);
+    color: black;
+  }
+}
