@@ -1,8 +1,7 @@
 import { Layout } from '../../components/template/Layout/Layout'
 import styles from '../../../styles/pages/blog/[id].module.scss'
 export default function BlogId({ blog }) {
-  console.log(blog)
-
+  
   const Day = blog.publishedAt
   const D = Day.split('T')
   const day = D[0].split('-')
@@ -35,12 +34,13 @@ export const getStaticPaths = async () => {
   const data = await fetch('https://muchan.microcms.io/api/v1/blog', key)
     .then((res) => res.json())
     .catch(() => null)
-  const paths = data.contents.map((content) => `/blog/${content.id}`)
-  return { paths, fallback: false }
-}
+    const paths = data.contents.map(content => `/blog/${content.id}`);
+  return {paths, fallback: false};
+};
 
 // データをテンプレートに受け渡す部分の処理を記述します
 export const getStaticProps = async (context) => {
+  
   const id = context.params.id
   const key = {
     headers: { 'X-API-KEY': process.env.API_KEY },
