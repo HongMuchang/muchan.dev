@@ -1,8 +1,10 @@
+import styles from '../../../../styles/components/atoms/blogs/Tag.module.scss'
+
 export function Tag(props) {
   const { tag } = props
   return (
     <div>
-      <span>{tag}</span>
+      <span className={styles.tag}>#{tag}</span>
     </div>
   )
 }
