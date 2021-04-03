@@ -1,8 +1,9 @@
+import Link from 'next/link'
 import { Layout } from '../components/template/Layout/Layout'
 import { BlogCard, Profile } from '../components/organisms/index'
 
 import styles from '../../styles/pages/index.module.scss'
-export default function Home() {
+export default function Home({ blogs }) {
   const bords = [1, 2]
 
   return (
@@ -11,11 +12,17 @@ export default function Home() {
         <div className={styles.main}>
           <Profile />
           <ul>
-            {bords.map((bord, index) => (
-              <li key={index} className={styles.card}>
-                <a href="http://">
-                  <BlogCard title={'Hello'} day={'2020-12-12'} tag={'React'} />
-                </a>
+            {blogs.map((blog) => (
+              <li key={blog.id} className={styles.card}>
+                <Link href={`blog/${blog.id}`}>
+                  <a>
+                    <BlogCard
+                      title={blog.title}
+                      day={blog.publishedAt}
+                      tag={blog.tag}
+                    />
+                  </a>
+                </Link>
               </li>
             ))}
           </ul>
@@ -23,4 +30,19 @@ export default function Home() {
       </Layout>
     </>
   )
+}
+
+// データをテンプレートに受け渡す部分の処理を記述します
+export const getStaticProps = async () => {
+  const key = {
+    headers: { 'X-API-KEY': process.env.API_KEY },
+  }
+  const data = await fetch('https://muchan.microcms.io/api/v1/blog', key)
+    .then((res) => res.json())
+    .catch(() => null)
+  return {
+    props: {
+      blogs: data.contents,
+    },
+  }
 }
