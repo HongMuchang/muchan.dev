@@ -13,7 +13,7 @@
       height: 400px;
       background-color: #e6f2ff;
       border-radius: 10px;
-      box-shadow: 0 0px 20px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 0px 10px rgba(0, 0, 0, 0.3);
 
       @include mq(lg) {
         margin: 5px 0;
