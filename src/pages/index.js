@@ -4,8 +4,6 @@ import { BlogCard, Profile } from '../components/organisms/index'
 
 import styles from '../../styles/pages/index.module.scss'
 export default function Home({ blogs }) {
-  const bords = [1, 2]
-
   return (
     <>
       <Layout>
