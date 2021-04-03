@@ -14,12 +14,13 @@ export default function BlogId({ blog }) {
           <h1 className={styles.title}>{blog.title}</h1>
           <p className={styles.day}>{`${day[0]}年${day[1]}月${day[2]}日`}</p>
           <div className={styles.blog_content}>
-          <div className={styles.post}
-            dangerouslySetInnerHTML={{
-              __html: `${blog.body}`,
-            }}
+            <div
+              className={styles.post}
+              dangerouslySetInnerHTML={{
+                __html: `${blog.body}`,
+              }}
             />
-            </div>
+          </div>
         </div>
       </div>
     </Layout>
