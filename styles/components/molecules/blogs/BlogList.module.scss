@@ -1,0 +1,19 @@
+@import "../../../variables.scss";
+
+.content {
+  height: 100%;
+  align-items: center;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+
+  .title {
+    margin-top: 100px;
+  }
+  .tag {
+    margin-top: 60px;
+  }
+  .day {
+    margin-top: 20px;
+  }
+}
