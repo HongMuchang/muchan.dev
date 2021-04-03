@@ -1,0 +1,32 @@
+export const works = [
+  {
+    id: 1,
+    title: '初めてのチーム制作',
+    link: true,
+    linkUrl: 'https://hongmuchan.net',
+    git: true,
+    gitUrl: 'https://hongmuchan.net',
+    addContent: '作ったきっかけは初めてのアウトプット',
+    langContent: 'Firebase',
+  },
+  {
+    id: 2,
+    title: '初めてのチーム制作',
+    link: true,
+    linkUrl: 'https://hongmuchan.net',
+    git: true,
+    gitUrl: 'https://hongmuchan.net',
+    addContent: '作ったきっかけは初めてのアウトプット',
+    langContent: 'TypeScript,かっここう',
+  },
+  {
+    id: 3,
+    title: '初めてのチーム制作',
+    link: true,
+    linkUrl: 'https://hongmuchan.net',
+    git: true,
+    gitUrl: 'https://hongmuchan.net',
+    addContent: '作ったきっかけは初めてのアウトプット',
+    langContent: 'TypeScript,かっここう',
+  },
+]
