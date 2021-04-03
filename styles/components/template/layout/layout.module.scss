@@ -4,6 +4,7 @@
   width: 100vw;
   display: flex;
   justify-content: center;
+  overflow-wrap: break-word;
   // background-color: #e6f2ff;
 
   @include mq(sm) {
