@@ -5,7 +5,6 @@ export const Layout = (props) => {
   const { children, title } = props
   return (
     <div>
-      {/* <Head title={title} /> */}
       <Header />
       <main className={styles.main}>
         <div className={styles.main_content}>{children}</div>
