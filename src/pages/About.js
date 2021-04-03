@@ -8,7 +8,6 @@ export default function About() {
       <Layout>
         <div className={styles.main}>
           <div className={styles.main_content}>
-            {/* <Title title={'自己紹介'} /> */}
             <AboutCard title={'こんいちは'} li={'ss'} dt={'sds'} dd={'dd'} />
           </div>
         </div>
