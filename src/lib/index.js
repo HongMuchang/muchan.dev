@@ -17,23 +17,13 @@ export async function getAllPostIds() {
   const data = await fetch('https://muchan.microcms.io/api/v1/blog', key)
     .then((res) => res.json())
     .catch(() => null)
-  
   const paths = data.contents.map((content) => `/blog/${content.id}`)
-  
-  console.log(data);
-  console.log('====================================');
-  console.log(paths);
-  console.log('====================================');
-  
   return paths
 }
 
 //押されたブログのIDを取得
 export async function getPostData(context) {
   const id = context.params.id
-  console.log('====================================');
-  console.log(id);
-  console.log('====================================');
   const key = {
     headers: { 'X-API-KEY': process.env.API_KEY },
   }
