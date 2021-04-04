@@ -22,7 +22,7 @@ export const Internships = [
     office: "株式会社 TechBowl",
     day: "2020/11 ~ 2021/2",
     content: "Laravelで既存サービスの改善",
-    lang: "'Laravel、Figma",
+    lang: "Laravel、Figma",
   },
   {
     office: "株式会社 タンバリン",
