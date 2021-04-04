@@ -1,8 +1,9 @@
 import Link from 'next/link'
 import { Layout } from '../components/template/Layout/Layout'
 import { BlogCard, Profile } from '../components/organisms/index'
-
 import styles from '../../styles/pages/index.module.scss'
+import { getAllPostsData } from '../lib/index'
+
 export default function Home({ blogs }) {
   return (
     <>
@@ -32,12 +33,7 @@ export default function Home({ blogs }) {
 
 // データをテンプレートに受け渡す部分の処理を記述します
 export const getStaticProps = async () => {
-  const key = {
-    headers: { 'X-API-KEY': process.env.API_KEY },
-  }
-  const data = await fetch('https://muchan.microcms.io/api/v1/blog', key)
-    .then((res) => res.json())
-    .catch(() => null)
+  const data = await getAllPostsData()
   return {
     props: {
       blogs: data.contents,
