@@ -18,7 +18,7 @@
     font-family: sans-serif;
     @include mq(lg) {
       width: 100px;
-      font-size: 16px;
+      font-size: 14px;
     }
     @include mq(md) {
       width: 100px;
@@ -28,10 +28,13 @@
     font-weight: bolder;
     font-size: 18px;
     @include mq(lg) {
-      font-size: 12px;
+      font-size: 16px;
     }
     @include mq(md) {
-      font-size: 13px;
+      font-size: 15px;
+    }
+    @include mq(sm) {
+      font-size: 18px;
     }
   }
 }
