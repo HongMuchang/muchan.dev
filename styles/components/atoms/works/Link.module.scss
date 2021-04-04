@@ -2,7 +2,10 @@
 
 .link {
   padding-left: 8px;
-  &:hover {
-    color: rgb(73, 216, 173);
+  a {
+    color: black;
+    &:hover {
+      color: rgb(73, 216, 173);
+    }
   }
 }
