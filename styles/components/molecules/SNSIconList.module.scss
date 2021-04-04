@@ -15,4 +15,9 @@
   .qiita {
     padding-top: 3px;
   }
+  .github {
+    & > a {
+      color: black;
+    }
+  }
 }
