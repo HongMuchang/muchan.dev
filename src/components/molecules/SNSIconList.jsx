@@ -15,7 +15,7 @@ export function SNSIconList() {
             <TwitterIcon />
           </a>
         </li>
-        <li>
+        <li className={styles.github}>
           <a href="https://github.com/HongMuchang" target="blank">
             <GithubIcon />
           </a>
