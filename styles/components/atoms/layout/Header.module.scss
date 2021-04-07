@@ -12,7 +12,6 @@
 
   a {
     color: black;
-    font-weight: 500;
   }
   @include mq(sm) {
     width: 600px;
@@ -22,9 +21,10 @@
   .header_title {
     width: 180px;
     font-size: 34px;
-    font-weight: 500;
     margin: 0 3px;
     color: black;
+    font-weight: 600;
+    padding-top: 10px;
     @include mq(md) {
       font-size: 30px;
     }
@@ -37,6 +37,8 @@
   .header_nav {
     display: flex;
     color: black;
+    font-weight: 600;
+    padding-top: 13px;
     & > a {
       font-size: 20px;
       margin: 10px;
