@@ -3,13 +3,24 @@ import { WorksList, UrlList, GitList } from '../molecules/works/index'
 import styles from '../../../styles/components/organisms/WorksCard.module.scss'
 
 export function WorksCard(props) {
-  const { title, git, gitUrl, link, linkUrl, addContent, langContent } = props
+  const {
+    title,
+    git,
+    gitUrl,
+    link,
+    linkUrl,
+    addContent,
+    langContent,
+    day,
+  } = props
   return (
     <div className={styles.works}>
       <div className={styles.works_content}>
         <div className={styles.works_card}>
-          <Title title={title} />
-
+          <div className={styles.works_flex}>
+            <Title title={title} />
+            <p>{day}</p>
+          </div>
           {link && (
             <div className={styles.link}>
               <UrlList width={25} height={25} url={linkUrl} />
