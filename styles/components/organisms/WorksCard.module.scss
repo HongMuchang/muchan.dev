@@ -10,7 +10,7 @@
 
     .works_card {
       padding: 30px;
-      height: 400px;
+      height: 380px;
       background-color: #e6f2ff;
       border-radius: 10px;
       box-shadow: 0 0px 10px rgba(0, 0, 0, 0.3);
@@ -24,12 +24,20 @@
         // background-color: green;
       }
     }
+    .works_flex {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 2px solid rgb(0, 0, 0);
+      & > p {
+        padding-top: 5px;
+      }
+    }
   }
   //画像とリンクの親
   .link {
     height: 30px;
     display: flex;
     align-items: center;
-    margin: 10px 0;
+    margin: 23px 0;
   }
 }
