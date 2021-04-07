@@ -18,6 +18,7 @@ export async function getAllPostIds() {
     .then((res) => res.json())
     .catch(() => null)
   const paths = data.contents.map((content) => `/blog/${content.id}`)
+  console.log(paths)
   return paths
 }
 
