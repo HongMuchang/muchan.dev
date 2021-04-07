@@ -1,6 +1,11 @@
+import { FC } from 'react'
 import styles from '../../../../styles/components/atoms/about/LiText.module.scss'
 
-export function LiText(props) {
+type Props = {
+  content:string
+}
+
+export const LiText:FC<Props>=(props) =>{
   const { content } = props
   return (
     <div className={styles.ul_content}>

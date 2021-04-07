@@ -1,6 +1,12 @@
-import styles from '../../../../styles/components/atoms/about/DtlText.module.scss'
+import { FC } from 'react'
+import styles from '../../../../styles/components/atoms/about/DtlNameText.module.scss'
 
-export function DtlText(props) {
+
+type Props = {
+  title: string,
+  content:string
+}
+export const DtlNameText:FC<Props>=(props)=> {
   const { title, content } = props
   return (
     <div className={styles.dl_content}>

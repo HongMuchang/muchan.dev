@@ -1,6 +1,13 @@
+import { FC } from 'react'
 import styles from '../../../../styles/components/atoms/about/DtlBrText.module.scss'
 
-export function DtlBrText(props) {
+type Props = {
+  office: string,
+  day: string,
+  content: string,
+  lang:string,
+}
+export const DtlBrText:FC<Props> = (props)=> {
   const { office, day, content, lang } = props
   return (
     <div className={styles.dl_content}>

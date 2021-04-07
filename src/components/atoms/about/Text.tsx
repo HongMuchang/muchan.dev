@@ -1,6 +1,10 @@
 import styles from '../../../../styles/components/atoms/about/Text.module.scss'
 
-export function Text(props) {
+type Props = {
+  content:string
+}
+
+export function Text(props:Props) {
   const { content } = props
   return (
     <div>
