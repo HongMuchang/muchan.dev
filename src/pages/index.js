@@ -6,28 +6,26 @@ import { getAllPostsData } from '../lib/index'
 
 export default function Home({ blogs }) {
   return (
-    <>
-      <Layout>
-        <div className={styles.main}>
-          <Profile />
-          <ul>
-            {blogs.map((blog) => (
-              <li key={blog.id} className={styles.card}>
-                <Link href={`blog/${blog.id}`}>
-                  <a>
-                    <BlogCard
-                      title={blog.title}
-                      day={blog.publishedAt}
-                      tag={blog.tag}
-                    />
-                  </a>
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </Layout>
-    </>
+    <Layout title={'むちゃん'}>
+      <div className={styles.main}>
+        <Profile />
+        <ul>
+          {blogs.map((blog) => (
+            <li key={blog.id} className={styles.card}>
+              <Link href={`blog/${blog.id}`}>
+                <a>
+                  <BlogCard
+                    title={blog.title}
+                    day={blog.publishedAt}
+                    tag={blog.tag}
+                  />
+                </a>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </Layout>
   )
 }
 
