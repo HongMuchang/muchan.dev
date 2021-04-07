@@ -4,7 +4,9 @@ export function Link(props) {
   const { url } = props
   return (
     <p className={styles.link}>
-      <a href={url}>{url}</a>
+      <a target="blank" href={url}>
+        {url}
+      </a>
     </p>
   )
 }
