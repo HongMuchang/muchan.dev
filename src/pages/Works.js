@@ -5,25 +5,24 @@ import { works } from '../components/date/index'
 
 export default function Works() {
   return (
-    <>
-      <Layout>
-        <div className={styles.main}>
-          <div className={styles.main_content}>
-            {works.map((work) => (
-              <WorksCard
-                key={work.id}
-                title={work.title}
-                git={work.git}
-                gitUrl={work.gitUrl}
-                link={work.link}
-                linkUrl={work.linkUrl}
-                addContent={work.addContent}
-                langContent={work.langContent}
-              />
-            ))}
-          </div>
+    <Layout title={'むちゃん'}>
+      <div className={styles.main}>
+        <div className={styles.main_content}>
+          {works.map((work, index) => (
+            <WorksCard
+              key={index}
+              title={work.title}
+              git={work.git}
+              gitUrl={work.gitUrl}
+              link={work.link}
+              linkUrl={work.linkUrl}
+              addContent={work.addContent}
+              langContent={work.langContent}
+              day={work.day}
+            />
+          ))}
         </div>
-      </Layout>
-    </>
+      </div>
+    </Layout>
   )
 }
