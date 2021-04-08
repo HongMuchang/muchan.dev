@@ -39,8 +39,10 @@
       }
     }
     .post {
+      width: 20%;
+      margin: 0 auto;
       & > h1 {
-        font-size: 30px;
+        font-size: 20px;
         font-weight: bold;
         margin: 40px 0 20px;
         background-color: rgb(230, 210, 210);
