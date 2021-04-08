@@ -5,7 +5,7 @@ import {
   REACTIcon,
   NEXTIcon,
   VUEIcon,
-} from '../atoms/icon/index.js'
+} from '../atoms/icon/index'
 
 export function ProgramSecondIcomList() {
   return (
