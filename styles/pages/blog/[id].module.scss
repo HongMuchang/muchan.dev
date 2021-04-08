@@ -3,16 +3,17 @@
 .main {
   width: 80%;
   margin: 70px auto;
-  // @include mq(lg) {
-  //   width: 80%;
-  // }
-  // @include mq(sm) {
-  //   width: 50%;
-  // }
+
   .main_content {
     width: 80%;
     margin: 0 auto;
-    background-color: aqua;
+    background-color: red;
+    @include mq(lg) {
+      width: 80%;
+    }
+    @include mq(sm) {
+      width: 50%;
+    }
     .title {
       font-size: 30px;
       font-weight: bold;
