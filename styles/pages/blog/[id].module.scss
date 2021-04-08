@@ -1,7 +1,7 @@
 @import "../../variables.scss";
 
 .main {
-  width: 70%;
+  width: 65%;
   margin: 70px auto;
   background-color: blue;
 
@@ -30,14 +30,17 @@
       @include mq(lg) {
         width: 100%;
         background-color: rgb(78, 165, 129);
+        font-size: 18px;
       }
       @include mq(md) {
-        width: 90%;
+        width: 100%;
         background-color: pink;
+        font-size: 18px;
       }
       @include mq(sm) {
-        width: 90%;
+        width: 100%;
         background-color: yellow;
+        font-size: 15px;
       }
 
       .post {
