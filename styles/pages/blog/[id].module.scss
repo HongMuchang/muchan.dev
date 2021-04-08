@@ -31,16 +31,16 @@
         background-color: blue;
       }
       @include mq(md) {
-        width: 90%;
+        width: 50%;
         background-color: pink;
       }
       @include mq(sm) {
-        width: 500px;
+        width: 50%;
         background-color: yellow;
       }
 
       .post {
-        width: 60%;
+        width: 100%;
         margin: 0 auto;
         & > h1 {
           font-size: 20px;
