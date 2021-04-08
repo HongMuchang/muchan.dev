@@ -9,15 +9,15 @@
     margin: 0 auto;
     background-color: green;
     @include mq(lg) {
-      width: 80%;
+      width: 90%;
       background-color: blue;
     }
     @include mq(md) {
-      width: 400px;
+      width: 90%;
       background-color: pink;
     }
     @include mq(sm) {
-      width: 50%;
+      width: 90%;
       background-color: yellow;
     }
     .title {
