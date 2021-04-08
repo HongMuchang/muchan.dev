@@ -1,13 +1,17 @@
 @import "../../variables.scss";
 
 .main {
-  width: 60%;
+  width: 100%;
   margin: 70px auto;
 
   @include mq(lg) {
-    width: 70%;
+    width: 80%;
+  }
+  @include mq(sm) {
+    width: 90%;
   }
   .main_content {
+    width: 100%;
     .title {
       font-size: 30px;
       font-weight: bold;
