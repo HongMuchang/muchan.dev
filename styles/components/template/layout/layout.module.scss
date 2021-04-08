@@ -8,12 +8,12 @@
   // background-color: #e6f2ff;
 
   @include mq(sm) {
-    width: 565px;
+    width: 600px;
   }
   .main_content {
     width: 80%;
     @include mq(sm) {
-      width: 80%;
+      width: 100%;
     }
   }
 }
