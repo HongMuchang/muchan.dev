@@ -46,12 +46,12 @@ export const Internships = [
 
 export const Activitys = [
   {title: "受賞歴", content: "3校合同コンテスト 銀賞　(2019.10.31)" },
-  {title: "受賞歴", content: "HAL EVENT WEEK　金賞　(2020.03.05)" },
-  {title: "受賞歴", content: "HAL EVENT WEEK　銀賞　(202１.03.05)" },
+  {title: "受賞歴", content: "HAL EVENT WEEK　金賞　(2020.3.5)" },
+  {title: "受賞歴", content: "HAL EVENT WEEK　銀賞　(2021.3.5)" },
   {title: "アルバイト",content:"CA Tech Kids(１ンター) ※2Year"},
   {title: "アルバイト",content:"DMM WEB CAMP(メンター) ※2Months"},
   {title: "学生団体　",content:"Volare ※2Year"},  
-
+  {title: "資格",content:"基本情報"},  
 ]
 
 export const Todos = [
@@ -67,6 +67,6 @@ export const Todos = [
   {content:"TypeScript"},
   {content:"C"},
   {content:"Docker"},
-  {content:"CI"},
+  {content:"CI/CD"},
   {content:"ios開発"},
 ]
