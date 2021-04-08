@@ -4,7 +4,7 @@ export function NEXTIcon() {
   return (
     <div>
       <Image
-        src="/nextjs.svg"
+        src="/next.svg"
         alt="Nextjsアイコン画像"
         width={70}
         height={70}
