@@ -31,11 +31,11 @@
         background-color: blue;
       }
       @include mq(md) {
-        width: 50%;
+        width: 80%;
         background-color: pink;
       }
       @include mq(sm) {
-        width: 50%;
+        width: 80%;
         background-color: yellow;
       }
 
