@@ -1,14 +1,14 @@
 @import "../../variables.scss";
 
 .main {
-  width: 100%;
+  width: 50%;
   margin: 70px auto;
-
+  background-color: aqua;
   @include mq(lg) {
-    width: 80%;
+    width: 60%;
   }
   @include mq(sm) {
-    width: 90%;
+    width: 60%;
   }
   .main_content {
     width: 100%;
