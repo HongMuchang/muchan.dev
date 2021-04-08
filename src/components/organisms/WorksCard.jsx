@@ -19,7 +19,7 @@ export function WorksCard(props) {
         <div className={styles.works_card}>
           <div className={styles.works_flex}>
             <Title title={title} />
-            <p>{day}</p>
+            <p className={styles.day}>{day}</p>
           </div>
           {link && (
             <div className={styles.link}>

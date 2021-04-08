@@ -30,6 +30,16 @@
       border-bottom: 2px solid rgb(0, 0, 0);
       & > p {
         padding-top: 5px;
+        @include mq(sm) {
+          padding-top: 0px;
+        }
+      }
+    }
+    .day {
+      @include mq(sm) {
+        margin-top: 5px;
+        font-size: 11px;
+        // background-color: red;
       }
     }
   }

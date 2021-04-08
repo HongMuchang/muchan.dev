@@ -6,6 +6,11 @@
   font-weight: 600;
   color: rgb(0, 0, 0);
   padding-bottom: 4px;
+  @include mq(sm) {
+    font-size: 13px;
+    margin-top: 3px;
+    // background-color: red;
+  }
 }
 .title_content {
   width: 100%;

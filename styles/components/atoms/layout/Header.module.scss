@@ -29,6 +29,9 @@
     @include mq(md) {
       font-size: 30px;
     }
+    @include mq(sm) {
+      font-size: 22px;
+    }
 
     &:hover {
       color: rgb(73, 216, 173);
@@ -44,6 +47,10 @@
       font-size: 20px;
       margin: 10px;
       padding: 0 3px;
+
+      @include mq(sm) {
+        font-size: 16px;
+      }
 
       &:hover {
         color: rgb(73, 216, 173);

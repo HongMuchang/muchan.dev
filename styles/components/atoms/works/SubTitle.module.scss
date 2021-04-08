@@ -7,4 +7,7 @@
   color: rgb(0, 0, 0);
   // margin: 60px 35px;
   // background-color: aqua;
+  @include mq(sm) {
+    font-size: 16px;
+  }
 }

@@ -2,21 +2,21 @@
 
 .main {
   width: 80%;
-  // margin: 70px auto;
-  background-color: blue;
+  margin: 70px auto;
+  // background-color: blue;
   @include mq(lg) {
     width: 100%;
-    background-color: rgb(78, 165, 129);
+    // background-color: rgb(78, 165, 129);
     font-size: 18px;
   }
   @include mq(md) {
     width: 100%;
-    background-color: pink;
+    // background-color: pink;
     font-size: 14px;
   }
   @include mq(sm) {
     width: 80%;
-    background-color: yellow;
+    // background-color: yellow;
     font-size: 13px;
   }
   .main_content {
@@ -27,6 +27,9 @@
       font-size: 30px;
       font-weight: bold;
       text-align: center;
+      @include mq(sm) {
+        font-size: 20px;
+      }
     }
 
     .day {
@@ -35,11 +38,18 @@
       font-size: 25px;
       text-align: center;
       font-weight: inherit;
+
+      @include mq(sm) {
+        font-size: 16px;
+      }
     }
     .blog_content {
       margin: 0 auto;
       font-size: 20px;
       font-family: sans-serif;
+      @include mq(sm) {
+        font-size: 12px;
+      }
 
       .post {
         width: 100%;
@@ -51,6 +61,10 @@
           background-color: rgb(230, 210, 210);
           padding: 10px 20px;
           border-radius: 5px;
+
+          @include mq(sm) {
+            font-size: 15px;
+          }
         }
 
         & > h2 {
@@ -58,6 +72,10 @@
           font-weight: bold;
           margin: 30px 0 16px;
           border-bottom: 1px solid #ddd;
+
+          @include mq(sm) {
+            font-size: 16px;
+          }
         }
 
         & > p {

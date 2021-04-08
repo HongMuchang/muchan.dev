@@ -22,6 +22,10 @@
     }
     @include mq(md) {
       width: 100px;
+      font-size: 14px;
+    }
+    @include mq(md) {
+      font-size: 12px;
     }
   }
   .title_content {
@@ -31,10 +35,10 @@
       font-size: 16px;
     }
     @include mq(md) {
-      font-size: 15px;
+      font-size: 13px;
     }
     @include mq(sm) {
-      font-size: 18px;
+      font-size: 12px;
     }
   }
 }

@@ -6,6 +6,7 @@
     margin: 0 auto;
     @include mq(sm) {
       width: 400px;
+      margin: 10px auto;
     }
   }
 }
