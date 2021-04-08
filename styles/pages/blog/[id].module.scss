@@ -1,12 +1,11 @@
 @import "../../variables.scss";
 
 .main {
-  width: 75%;
-  margin: 20px auto;
+  background-color: blue;
+
   .main_content {
     width: 80%;
     margin: 0 auto;
-    background-color: blue;
 
     .title {
       font-size: 30px;
