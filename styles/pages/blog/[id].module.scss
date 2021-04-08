@@ -9,10 +9,10 @@
     margin: 0 auto;
     background-color: red;
     @include mq(lg) {
-      width: 80%;
+      width: lg;
     }
     @include mq(sm) {
-      width: 50%;
+      width: sm;
     }
     .title {
       font-size: 30px;
