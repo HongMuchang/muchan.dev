@@ -1,25 +1,13 @@
 @import "../../variables.scss";
 
 .main {
-  width: 80%;
+  width: 90%;
   margin: 70px auto;
 
   .main_content {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
-    background-color: green;
-    @include mq(lg) {
-      width: 90%;
-      background-color: blue;
-    }
-    @include mq(md) {
-      width: 90%;
-      background-color: pink;
-    }
-    @include mq(sm) {
-      width: 90%;
-      background-color: yellow;
-    }
+
     .title {
       font-size: 30px;
       font-weight: bold;
@@ -34,17 +22,23 @@
       font-weight: inherit;
     }
     .blog_content {
+      margin: 0 auto;
       font-size: 20px;
       font-family: sans-serif;
 
       @include mq(lg) {
-        font-size: 17px;
-        // background-color: red;
+        width: 90%;
+        background-color: blue;
       }
       @include mq(md) {
-        font-size: 15px;
-        // background-color: aqua;
+        width: 90%;
+        background-color: pink;
       }
+      @include mq(sm) {
+        width: 500px;
+        background-color: yellow;
+      }
+
       .post {
         width: 60%;
         margin: 0 auto;
