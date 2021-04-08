@@ -7,12 +7,18 @@
   .main_content {
     width: 80%;
     margin: 0 auto;
-    background-color: red;
+    background-color: green;
     @include mq(lg) {
-      width: lg;
+      width: 80%;
+      background-color: blue;
+    }
+    @include mq(md) {
+      width: 400px;
+      background-color: pink;
     }
     @include mq(sm) {
-      width: sm;
+      width: 50%;
+      background-color: yellow;
     }
     .title {
       font-size: 30px;
