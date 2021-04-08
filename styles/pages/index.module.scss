@@ -1,7 +1,7 @@
 .main {
   // background-color: #e6f2ff;
   .card {
-    width: 450px;
+    width: min(100%, 450px);
     margin: 0 auto;
   }
 }
