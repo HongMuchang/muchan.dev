@@ -1,7 +1,11 @@
+@import "../../styles/variables.scss";
 .main {
   // background-color: #e6f2ff;
   .card {
     width: 500px;
     margin: 0 auto;
+    @include mq(sm) {
+      width: 400px;
+    }
   }
 }
