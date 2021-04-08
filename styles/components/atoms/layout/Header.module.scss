@@ -15,6 +15,7 @@
   }
   @include mq(sm) {
     width: 100vw;
+    min-width: 500px;
     // background-color: red;
   }
 
