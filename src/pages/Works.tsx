@@ -1,9 +1,10 @@
+import { FC } from 'react'
 import { Layout } from '../components/template/Layout/Layout'
 import { WorksCard } from '../components/organisms/index'
 import styles from '../../styles/pages/works.module.scss'
 import { works } from '../components/date/index'
 
-export default function Works() {
+export const Works: FC = () => {
   return (
     <Layout title={'むちゃん'}>
       <div className={styles.main}>
