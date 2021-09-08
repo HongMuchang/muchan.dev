@@ -38,10 +38,28 @@ export const Internships = [
   },
   {
     office: "株式会社 スリーシェイク",
-    day: "2021/3 インターン中",
+    day: "2021/3 ~ 2021/8",
     content: "新規プロダクトの開発 (フロントエンド)",
     lang: "NextJs、TypeScript、Firebase",
   },
+  {
+    office: "株式会社ディー・エヌ・エー (DeNA)",
+    day: "2021/9 2Days",
+    content: "チャットアプリの作成(ハッカソン)",
+    lang: "React、Go、AWS",
+  },
+  {
+    office: "合同会社DMM.com",
+    day: "2021/8 ~ 2021/9",
+    content: "GUILD型のインターン",
+    lang: "React、iOS、AWS、Go",
+  },
+  {
+    office: "株式会社アイエンター",
+    day: "2021/10",
+    content: "システム開発",
+    lang: "PHP、JAVA",
+  }, 
 ]
 
 export const Activitys = [

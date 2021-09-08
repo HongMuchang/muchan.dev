@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "format": "prettier --write ./src/**/*.{js,jsx,,ts,tsx}"
+    "format": "prettier --write ./src/**/*.{js,jsx,,ts,tsx}",
+    "analyze": "cross-env ANALYZE=true next build"
   },
   "dependencies": {
     "autoprefixer": "^10.2.4",
@@ -21,6 +22,8 @@
     "tailwindcss": "^2.0.2"
   },
   "devDependencies": {
+    "@next/bundle-analyzer": "^10.2.2",
+    "cross-env": "^7.0.3",
     "lint-staged": "10.3.0",
     "prettier": "^2.2.1"
   }
