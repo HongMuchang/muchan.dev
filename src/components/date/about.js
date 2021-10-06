@@ -58,7 +58,7 @@ export const Internships = [
     office: "株式会社アイエンター",
     day: "2021/10",
     content: "システム開発",
-    lang: "PHP、JAVA",
+    lang: "Laravel、figma",
   }, 
 ]
 
